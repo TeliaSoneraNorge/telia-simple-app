@@ -1,0 +1,9 @@
+security:
+  oauth2:
+    client:
+      clientId: clientId
+      clientSecret: clientSecret
+      accessTokenUri: https://id-test.teliasonera.no/auth/realms/telia/protocol/openid-connect/token
+      userAuthorizationUri: https://id-test.teliasonera.no/auth/realms/telia/protocol/openid-connect/auth
+    resource:
+      userInfoUri: https://id-test.teliasonera.no/auth/realms/telia/protocol/openid-connect/userinfo
