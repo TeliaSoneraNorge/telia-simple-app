@@ -3,7 +3,11 @@ security:
     client:
       clientId: clientId
       clientSecret: clientSecret
-      accessTokenUri: https://id-test.teliasonera.no/auth/realms/telia/protocol/openid-connect/token
-      userAuthorizationUri: https://id-test.teliasonera.no/auth/realms/telia/protocol/openid-connect/auth
+      accessTokenUri: https://sandbox.login.telia.io/realms/telia/protocol/openid-connect/token
+      userAuthorizationUri: https://sandbox.login.telia.io/realms/telia/protocol/openid-connect/auth
     resource:
-      userInfoUri: https://id-test.teliasonera.no/auth/realms/telia/protocol/openid-connect/userinfo
+      userInfoUri: https://sandbox.login.telia.io/realms/telia/protocol/openid-connect/userinfo
+
+server:
+  port: 8080
+  context-path: /demo
